@@ -41,7 +41,7 @@ Each chapter is written in standalone Markdown. Feel free to fork, remix, or ada
 - ✍️ Blog posts
 - 🛡️ Internal team guides
 - 🧨 Capture-the-flag LLM challenges
-- 📚 Future books like **REDACTED** or **REDACTED**
+- 📚 Future books like **~~REDACTED~~** or **~~REDACTED~~**
 
 ---
 
