@@ -29,12 +29,12 @@ Built from live red teaming experience, challenge platforms (like HackAPrompt), 
 | Chapter | Title                                                           |
 | ------- | --------------------------------------------------------------- |
 | 01      | [Introduction to AI Red Teaming](01-intro-to-ai-red-teaming.md) |
-| 02      | Threat Modeling LLMs                                            |
-| 03      | Attack Methodology                                              |
-| 04      | Attack Recipes _(8+ subchapters)_                               |
-| 05      | Defenses and Evasion                                            |
-| 06      | Case Studies                                                    |
-| 07      | Tools and Resources                                             |
+| 02      | [Threat Modeling LLMs](02-threat-modeling-llms.md)              |
+| 03      | [Attack Methodology](03-attack-methodology.md)                  |
+| 04      | [Attack Recipes _(8+ subchapters)_](04-attack-recipes/)         |
+| 05      | [Defenses and Evasion](05-defenses-and-evasion.md)              |
+| 06      | [Case Studies](06-case-studies.md)                              |
+| 07      | [Tools and Resources](07-resources-and-tools.md)                |
 
 Each chapter is written in standalone Markdown. Feel free to fork, remix, or adapt it into:
 
