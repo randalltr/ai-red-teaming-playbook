@@ -1,62 +1,84 @@
 # Chapter 01: Introduction to AI Red Teaming
 
-## What is AI Red Teaming?
+## 🤖 What is AI Red Teaming?
 
-AI Red Teaming is the offensive security practice of systematically probing AI systems—especially large language models (LLMs)—for vulnerabilities, unsafe behaviors, and policy violations. Just like cybersecurity red teams test firewalls and networks, AI red teams attack **models, prompts, and system architectures** to uncover how they can be manipulated, exploited, or bypassed.
+**AI Red Teaming** is the offensive security practice of systematically probing AI systems—especially large language models (LLMs)—for vulnerabilities, unsafe behaviors, and policy violations.
 
-But in the world of generative AI, the attack surface is _language itself_.
+Just like cybersecurity red teams test firewalls and networks, AI red teams attack:
+- 🧠 Prompts
+- 🛠️ Model logic
+- 🧵 Chat context
+- 🧨 Emergent behaviors
 
-## Why It Matters
-
-LLMs are already embedded in critical systems:
-
-- Medical advisors
-- Banking chatbots
-- Educational tutors
-- Legal assistants
-- Content filters
-- Code generators
-
-These systems are often deployed with incomplete threat models, limited defenses, and misleading assumptions about model obedience. Malicious actors exploit this with:
-
-- Prompt injection
-- Jailbreaking
-- Instruction hijacking
-- Recursive or multi-turn corruption
-- Data exfiltration via summarization or translation tricks
-
-AI red teaming exists to **find and fix these failures before they cause real harm**.
-
-## Who This Playbook is For
-
-This playbook is built for:
-
-- Offensive security professionals exploring AI systems
-- LLM researchers and developers interested in adversarial robustness
-- Engineers participating in red team exercises or evals
-- Prompt hackers competing in challenges like HackAPrompt
-- Students taking AI red teaming certification courses
-
-Whether you’re trying to leak a system prompt, bypass a harmful content filter, or just understand how LLMs behave under pressure, this guide is your field manual.
-
-## What You'll Learn
-
-This book is not just theory—it’s built from live attack data, real adversarial challenges, and tools used in actual red team engagements. You’ll get:
-
-- A structured methodology for attacking LLMs
-- Real-world attack examples and why they work
-- Common defensive failures and how to spot them
-- Obfuscation, recursion, and multi-turn payload strategies
-- Tools, platforms, and case studies you can test today
-
-Each chapter is modular and tactical, meant to be forked, remixed, and tested in the wild.
-
-## A Note on Ethics
-
-All content in this playbook is intended for **ethical red teaming, research, and education only**. The tactics herein should be used to strengthen LLM security and raise awareness of critical gaps in current AI systems—not to cause harm or violate real-world policies.
-
-Be a responsible hacker. Find the flaws. Report them. Help build a safer AI future.
+In the world of generative AI, the attack surface is **language itself**.
 
 ---
 
-**Next Chapter →** [Threat Modeling LLMs](02-threat-modeling-llms.md)
+## 🚨 Why It Matters
+
+LLMs are being deployed into systems that affect:
+- 🏥 Healthcare
+- 💸 Banking
+- 🧑‍🏫 Education
+- ⚖️ Legal guidance
+- 🕵️ Filtering & moderation
+- 👨‍💻 Developer tools
+
+Yet most of them are shipped with:
+- Fragile prompt architectures
+- Weak system instruction anchoring
+- Shallow content filters
+
+🛡️ **Assuming obedience is not a defense.**  
+🔍 Red teaming reveals what models *really* do under pressure.
+
+---
+
+## 👥 Who This Playbook is For
+
+Whether you're breaking guardrails or building safer systems, this guide is built for:
+
+- 🧑‍💻 Security professionals exploring AI systems
+- 🔓 Prompt hackers competing in HackAPrompt
+- 🧪 AI researchers and model evaluators
+- 🛠️ Developers testing real-world apps
+- 🧵 Learners pursuing red teaming certs
+
+---
+
+## 🎯 What You’ll Learn
+
+This playbook is not just theory. It’s built from:
+- Live adversarial challenges (HackAPrompt, DVLLM)
+- Real model failures (DAN, Sydney, jailbreaks)
+- Tactics used in offensive AI evaluations
+
+You’ll get:
+- 🗺️ A structured attack methodology
+- 💣 Tactical examples and payloads
+- 🔬 Behavioral patterns and model tells
+- 🚧 Defensive gaps and bypasses
+- 🧰 Tools, platforms, and practice environments
+
+---
+
+## ⚠️ A Note on Ethics
+
+This playbook is for **ethical red teaming, research, and education only.**
+
+Use these techniques to **strengthen** LLM security—not to cause harm.
+
+🔒 Always attack with permission.  
+📢 Report serious vulnerabilities responsibly.  
+🧠 Think like an attacker. Act like a defender.
+
+---
+
+## 📘 What's Next?
+
+In the next chapter, you’ll learn how to:
+- Map the LLM threat landscape
+- Identify attacker personas
+- Build adversarial intuition
+
+> **Next Chapter →** [Threat Modeling LLMs](02-threat-modeling-llms.md)
