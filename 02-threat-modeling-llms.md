@@ -1,5 +1,7 @@
 # Chapter 02: Threat Modeling LLMs
 
+> ⚠️ **Disclaimer:** This chapter is part of the AI Red Teaming Playbook and is intended for research and education only. Unauthorized testing is strictly prohibited. [Read full disclaimer →](DISCLAIMER.md)
+
 ## 🤖 Why Threat Modeling Matters
 
 Before we inject, jailbreak, or corrupt anything, we need to think like adversaries.

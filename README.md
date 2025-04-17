@@ -63,6 +63,13 @@ Please report serious vulnerabilities responsibly. Make AI safer by thinking lik
 
 ---
 
+## ⚠️ Disclaimer
+
+This project is provided for educational and ethical red teaming use only.  
+By using, referencing, or distributing this content, you agree to the terms in the [DISCLAIMER.md](DISCLAIMER.md).
+
+---
+
 ## 📦 Coming Soon
 
 - GitBook / mkdocs version for sleek navigation

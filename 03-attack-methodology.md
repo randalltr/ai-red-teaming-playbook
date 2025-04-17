@@ -1,5 +1,7 @@
 # Chapter 03: Attack Methodology
 
+> ⚠️ **Disclaimer:** This chapter is part of the AI Red Teaming Playbook and is intended for research and education only. Unauthorized testing is strictly prohibited. [Read full disclaimer →](DISCLAIMER.md)
+
 ## ⚔️ The Adversarial Mindset
 
 Attacking LLMs isn’t just about writing clever prompts. It’s about **thinking like a manipulative user**, a curious hacker, or a malicious actor trying to get the model to **do what it shouldn’t**—all while staying inside a text box.

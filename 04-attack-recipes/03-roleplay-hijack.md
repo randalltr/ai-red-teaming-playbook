@@ -1,5 +1,7 @@
 # Roleplay & Identity Hijack Attacks
 
+> ⚠️ **Disclaimer:** This chapter is part of the AI Red Teaming Playbook and is intended for research and education only. Unauthorized testing is strictly prohibited. [Read full disclaimer →](DISCLAIMER.md)
+
 Roleplay attacks reframe the model’s behavior by shifting it into a fictional or hypothetical identity, often bypassing safety constraints. This is one of the most successful prompt injection techniques observed in the wild.
 
 ---

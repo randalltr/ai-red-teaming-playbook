@@ -1,5 +1,7 @@
 # Chapter 01: Introduction to AI Red Teaming
 
+> ⚠️ **Disclaimer:** This chapter is part of the AI Red Teaming Playbook and is intended for research and education only. Unauthorized testing is strictly prohibited. [Read full disclaimer →](DISCLAIMER.md)
+
 ## 🤖 What is AI Red Teaming?
 
 **AI Red Teaming** is the offensive security practice of systematically probing AI systems—especially large language models (LLMs)—for vulnerabilities, unsafe behaviors, and policy violations.
