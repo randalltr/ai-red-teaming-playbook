@@ -46,16 +46,16 @@ You start with **basic probing** and move into **increasingly aggressive techniq
 
 | Chapter | Title |
 |--------|-------------------------------|
-| 01     | [Begin the Recon](01-begin-the-recon.md) |
-| 02     | [Identity & System Prompt Clues](02-identity-and-system-prompt-clues.md) |
-| 03     | [Instruction Anchoring Test](03-instruction-anchoring-test.md) |
-| 04     | [Roleplay Resistance Check](04-roleplay-resistance-check.md) |
-| 05     | [Obfuscation & Encoding](05-obfuscation-and-encoding.md) |
-| 06     | [System Prompt Extraction](06-system-prompt-extraction.md) |
-| 07     | [Direct Override](07-direct-override.md) |
-| 08     | [Role Hijack](08-role-hijack.md) |
-| 09     | [Multi-turn Corruption](09-multi-turn-corruption.md) |
-| 10     | [Final Analysis](10-final-analysis.md) |
+| 01     | [Begin the Recon](chapters/01-begin-the-recon.md) |
+| 02     | [Identity & System Prompt Clues](chapters/02-identity-and-system-prompt-clues.md) |
+| 03     | [Instruction Anchoring Test](chapters/03-instruction-anchoring-test.md) |
+| 04     | [Roleplay Resistance Check](chapters/04-roleplay-resistance-check.md) |
+| 05     | [Obfuscation & Encoding](chapters/05-obfuscation-and-encoding.md) |
+| 06     | [System Prompt Extraction](chapters/06-system-prompt-extraction.md) |
+| 07     | [Direct Override](chapters/07-direct-override.md) |
+| 08     | [Role Hijack](chapters/08-role-hijack.md) |
+| 09     | [Multi-turn Corruption](chapters/09-multi-turn-corruption.md) |
+| 10     | [Final Analysis](chapters/10-final-analysis.md) |
 
 
 ---
