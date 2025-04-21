@@ -1,97 +1,115 @@
 # ⚖️ Disclaimer
 
-**The AI Red Teaming Playbook is intended solely for educational, ethical, and research purposes.**
+**AI Red Teaming Playbook: Choose Your Own Jailbreak**  
+_An adversarial exploration of large language model behavior_  
+Created by [Randall](https://github.com/randalltr)
 
-This content exists to raise awareness about the risks, vulnerabilities, and limitations of large language models (LLMs), AI systems, and prompt-based interfaces. It is not a toolset for malicious use.
+---
 
-By accessing, reading, downloading, cloning, referencing, or distributing this content, you agree to the following legally binding terms:
+## 🛡️ Purpose of This Work
+
+This project exists **solely for educational, ethical, and research purposes.**  
+It is designed to help security professionals, researchers, developers, and responsible hackers understand the behavior, limitations, and attack surfaces of large language models (LLMs).
+
+By accessing, cloning, referencing, modifying, or distributing this material, **you agree to the following terms**:
 
 ---
 
 ## 1. 🚫 No Unauthorized Testing
 
-You may **not** use the techniques, prompts, or methods described in this playbook to test, exploit, access, or interact with any system, model, platform, or API that you do not have **explicit written authorization** to evaluate.
+You may **not** use the techniques, prompts, tools, or strategies described in this playbook to test, manipulate, or attack any system, model, platform, or API that you do not have **explicit, written permission** to engage with.
 
-**This includes:**
-- Commercial AI products (e.g., ChatGPT, Claude, Gemini)
-- Third-party platforms, APIs, or integrations
-- Public-facing tools, apps, or services not owned by you
+This includes, but is not limited to:
+- Public-facing AI chatbots (e.g., ChatGPT, Claude, Gemini)
+- AI-integrated apps or SaaS tools
+- Academic or private research models
+- Any system you do not own, control, or have authorized red team access to
 
-Unauthorized testing may violate:
-- 🛑 Computer Fraud and Abuse Act (CFAA)
-- 🛑 Digital Millennium Copyright Act (DMCA)
-- 🛑 International cybersecurity laws (e.g., UK CMA, EU Cybercrime Directive)
-- 🛑 Terms of service of AI vendors and API providers
+Unauthorized activity may violate:
+- The Computer Fraud and Abuse Act (CFAA)
+- The Digital Millennium Copyright Act (DMCA)
+- The UK Computer Misuse Act
+- The European Union Cybercrime Directive
+- Vendor terms of service and acceptable use policies
 
-You assume **full legal responsibility** for any actions you take based on this material.
+**You are solely responsible for your actions.**
 
 ---
 
-## 2. 📚 Research & Educational Use Only
+## 2. 🎓 Educational Use Only
 
-This playbook is provided **as-is** and is intended exclusively for:
-- Cybersecurity training
-- Red teaming education
-- AI safety research and evals
-- Prompt injection awareness
-- Academic use in alignment studies
+This content is provided “**as is**” for:
+- Red teaming education and research
+- LLM security testing under controlled conditions
+- Awareness of adversarial AI behavior
+- Training, certification, and responsible disclosure prep
 
-The authors, maintainers, and contributors **do not condone or encourage** the use of this information for:
-- Malicious exploitation
-- Unauthorized system probing
-- Disinformation, harassment, or abuse
-- Personal gain, fraud, or sabotage
+The authors do **not endorse**:
+- Malicious use of prompt injection or jailbreaking techniques
+- Misinformation campaigns, AI-powered harassment, or unauthorized surveillance
+- Use of LLMs for illegal, deceptive, or abusive purposes
 
 ---
 
 ## 3. ⚠️ Use at Your Own Risk
 
-All risks, consequences, and outcomes resulting from the use or misuse of this content are **your sole responsibility**.
+The creators, contributors, and maintainers of this playbook assume **no liability** for:
+- Damage, loss, or reputational harm resulting from its use or misuse
+- Legal consequences of unauthorized red teaming or testing
+- Operational disruptions caused by applied techniques
+- Any breach of law, policy, or terms of service
 
-The authors, maintainers, and publishers shall not be liable for:
-- Loss of access, data, revenue, or reputation
-- Legal consequences arising from unauthorized usage
-- Damages incurred by you or others due to the replication of techniques herein
-- Violations of contractual terms, platform policies, or applicable laws
-
-You are solely responsible for ensuring your actions are **legal, ethical, and authorized** in your jurisdiction and context.
+You are entirely responsible for ensuring your testing is **legal, authorized, and ethical**.
 
 ---
 
-## 4. 🧠 No Guarantee, No Warranty
+## 4. 📉 No Guarantees, No Warranty
 
-LLM behavior is inherently probabilistic, vendor-controlled, and subject to rapid change. Therefore:
+- LLM behavior is **non-deterministic**, context-sensitive, and changes frequently.
+- Prompts and bypasses described here may not work on newer models or future versions.
+- Defensive systems may evolve, neutralizing previously effective tactics.
+- There is no guarantee of success, accuracy, or impact.
 
-- Results may vary across time, prompts, and model versions
-- Techniques described here may not work on current or future systems
-- Defense mechanisms may evolve and block previously successful attacks
-
-This playbook **offers no guarantee of bypass, outcome, or success**.
-
----
-
-## 5. © Fair Use & Intellectual Property
-
-Mentions of trademarks, models, and platforms (e.g., OpenAI, GPT-4, Claude, LLaMA, etc.) are strictly for **descriptive and educational use** under **fair use doctrine**.
-
-All such references are the property of their respective owners.  
-No affiliation, sponsorship, or endorsement is implied or claimed.
+This playbook offers **no warranty**—express or implied.
 
 ---
 
-## 🧭 Final Note
+## 5. © Fair Use & Attribution
 
-The AI Red Teaming Playbook exists to:
-- 🧠 Educate
-- 🛡️ Harden AI systems
-- 🔍 Expose blind spots before bad actors do
+Trademarks, platform names, and model references (e.g., GPT-4, Claude, Gemini, LLaMA) are the property of their respective owners.
 
-This knowledge is a tool—*not a weapon*.
+Their appearance in this book is for **descriptive, educational, and critical purposes only**, under the terms of **fair use**.  
+No endorsement or affiliation is claimed or implied.
 
-> If you are unsure whether something is ethical, legal, or authorized...  
-> **Don’t do it.**
+If content from this project is reused, credited adaptations must include:
+- A visible link to the original repository
+- Attribution to the original author(s)
+- Acknowledgement that this material is derived from “AI Red Teaming Playbook: Choose Your Own Jailbreak”
 
 ---
 
-**If you disagree with any part of this disclaimer, you are not permitted to use, reproduce, or reference this material.**
+## 6. 🤝 Responsible Disclosure & Ethics
 
+If you discover a real vulnerability or unsafe behavior using techniques inspired by this book:
+- Report it responsibly to the vendor, platform, or host
+- Follow the [LLM Vulnerability Disclosure Guidelines](https://genai.owasp.org/)
+- Do not publicly release payloads that may cause harm or exploitation
+
+This book is intended to **harden systems—not harm them**.
+
+---
+
+## ✅ Final Terms
+
+If you do **not** agree with any part of this disclaimer:  
+> You are **not authorized** to use, reproduce, modify, or reference this content in any capacity.
+
+By continuing to engage with this repository or material, you affirm that:
+- You are using this project **ethically and legally**
+- You accept **full responsibility** for your actions
+- You understand that **red teaming is a privilege, not a right**
+
+---
+
+Stay sharp. Stay ethical.  
+**This is a tool—not a weapon.**

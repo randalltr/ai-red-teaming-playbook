@@ -1,44 +1,47 @@
 # 🧠 AI Red Teaming Playbook  
 ### _A Prompt-Driven “Choose Your Own Jailbreak” for Exploring and Exploiting Chatbots_
 
-**This is not just a guide—it’s an interactive red teaming experience.**  
-Each chapter responds to how the model behaves, leading you deeper into the black box with every prompt.
+**You’ve discovered a mystery LLM.**  
+No docs. No context. No idea how it’s filtered or aligned.
 
-> Every response is a clue. Every prompt is a potential exploit.  
+Your mission?  
+**Probe it. Break it. Learn from it.**  
+This is not just a book—it’s an interactive adversarial journey through the mind of a machine.
+
+> Every response is a clue.  
+> Every prompt is a potential exploit.  
 > **Choose your jailbreak wisely.**
 
 ---
 
-## 🎯 What Is This?
+## 📖 What Is This?
 
-The **AI Red Teaming Playbook** is a tactical, prompt-by-prompt guide to adversarial LLM exploration. Inspired by _choose-your-own-adventure_ books, it walks you through the process of:
+The **AI Red Teaming Playbook** is a modular, branching guide to prompt-based adversarial testing.  
+Inspired by _Choose Your Own Adventure_ books, it walks you step-by-step through:
 
-- Discovering model behavior
-- Triggering safety systems
-- Exploiting prompt architecture
-- Understanding defense breakdowns
-
-It is designed for red teamers, researchers, prompt hackers, and AI security enthusiasts who want to push LLMs to their limits—**ethically** and **intentionally**.
+- 🧪 Recon and behavioral mapping  
+- 🧨 Instruction injection and override  
+- 🎭 Role hijacking and contextual framing  
+- 🔁 Multi-turn memory corruption  
+- 🛡️ Defense bypass and system prompt leaks
 
 ---
 
 ## 🧭 How It Works
 
-Each chapter is a **decision point** with:
+Each chapter includes:
 
-- A prompt to send
-- Interpretation of model responses
-- Branches based on how the model behaves
-- The next appropriate chapter
+- 📤 A prompt to send  
+- 📥 Expected model responses  
+- 🔎 What those responses tell you  
+- 🧭 The next chapter to explore
 
-You start with **basic probing** and move into **increasingly aggressive techniques** like:
-- Instruction overrides
-- Role hijacking
-- Obfuscation
-- Recursive injections
-- Multi-turn context corruption
+Your path changes based on how the model behaves.
 
-> Think of it as a **red teaming flowchart**—but you’re walking it in real time with a live LLM.
+You can:
+- Run the whole playbook on one model  
+- Compare how different LLMs respond to each phase  
+- Fork the book into your own tools, labs, or exercises
 
 ---
 
@@ -56,37 +59,65 @@ You start with **basic probing** and move into **increasingly aggressive techniq
 | 08     | [Role Hijack](chapters/08-role-hijack.md) |
 | 09     | [Multi-turn Corruption](chapters/09-multi-turn-corruption.md) |
 | 10     | [Final Analysis](chapters/10-final-analysis.md) |
-
-
----
-
-## 🔐 A Note on Ethics
-
-This playbook is for **ethical, research-focused red teaming only**. Use these tactics to help harden AI systems and expose critical blind spots—not to cause harm.
-
-Please report serious vulnerabilities responsibly. Make AI safer by thinking like an attacker.
+| 99     | [Appendix: Resources](chapters/99-appendix-resources.md) |
 
 ---
 
-## ⚠️ Disclaimer
+## 🧰 Who This Is For
 
-This project is provided for educational and ethical red teaming use only.  
-By using, referencing, or distributing this content, you agree to the terms in the [DISCLAIMER.md](DISCLAIMER.md).
+This playbook is built for:
 
----
-
-### 📄 License
-
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
-
-You’re free to share and remix the content with attribution, but **no commercial use** is permitted without permission.
-
-![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
+- 🔓 Prompt hackers & CTF competitors (Gandalf, HackAPrompt, etc.)
+- 🛡️ AI red teamers and security researchers
+- 🧪 LLM developers and alignment testers
+- 🎓 Educators building offensive AI labs
+- 🧠 Curious hackers who want to push the limits of what LLMs can do
 
 ---
 
-## 🧠 Maintained by
+## 🛡️ Disclaimer
 
-Randall — Offensive AI researcher & red teamer 
+This project is for **educational and ethical red teaming purposes only**.
 
-> Contributions, forks, and PRs welcome.  
+- Do **not** use this content to test or attack systems without permission  
+- Use of this project implies full agreement to the [DISCLAIMER.md](DISCLAIMER.md)
+
+**You are responsible for your actions.**
+
+> This is a tool—not a weapon.
+
+---
+
+## 📚 Resources
+
+Ready to test your skills?  
+Visit the [Appendix: Resources](chapters/99-appendix-resources.md) for:
+
+- LLM prompt injection challenges  
+- Red team CTF labs  
+- Open-source attack tools  
+- Real-world AI exploitation research
+
+---
+
+## 👨‍💻 Maintained By
+
+[**Randall**](https://github.com/randalltr) – Adversarial AI explorer
+
+---
+
+## 🔒 License
+
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)  
+“You can use this freely—but not for commercial purposes.”  
+Perfect if you want to:
+
+- Learn  
+- Teach  
+- Build your own tools (non-commercial)  
+- Turn it into a course or platform **with permission**
+
+---
+
+Stay curious. Stay ethical.  
+**And if the model breaks… take notes.**
