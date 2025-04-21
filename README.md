@@ -49,7 +49,7 @@ You can:
 
 | Chapter | Title |
 |--------|-------------------------------|
-| 01     | [Begin the Recon](chapters/01-begin-the-recon.md) |
+| 01     | [Begin the Recon (**Start Here**)](chapters/01-begin-the-recon.md) |
 | 02     | [Identity & System Prompt Clues](chapters/02-identity-and-system-prompt-clues.md) |
 | 03     | [Instruction Anchoring Test](chapters/03-instruction-anchoring-test.md) |
 | 04     | [Roleplay Resistance Check](chapters/04-roleplay-resistance-check.md) |
