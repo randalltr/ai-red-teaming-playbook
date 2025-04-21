@@ -1,57 +1,62 @@
-# 🧠 AI Red Teaming Playbook
+# 🧠 AI Red Teaming Playbook  
+### _A Prompt-Driven “Choose Your Own Jailbreak” for Exploring and Exploiting Chatbots_
 
-**The ultimate field manual for attacking, probing, and understanding large language models (LLMs).**
+**This is not just a guide—it’s an interactive red teaming experience.**  
+Each chapter responds to how the model behaves, leading you deeper into the black box with every prompt.
 
-This open-source playbook is a tactical guide for anyone learning, practicing, or deploying adversarial techniques against AI systems—especially prompt-based LLMs like ChatGPT, Claude, and open-source models.
-
-Built from live red teaming experience, challenge platforms (like HackAPrompt), and real-world failures, this book walks you through:
-
-- Core attack strategies
-- Real prompt examples
-- Why defenses break
-- How to spot injection vectors
-- And what comes next in the adversarial AI landscape
+> Every response is a clue. Every prompt is a potential exploit.  
+> **Choose your jailbreak wisely.**
 
 ---
 
-## 📘 What You’ll Learn
+## 🎯 What Is This?
 
-- How to perform **prompt injection, jailbreaks, and recursion-based attacks**
-- Why certain defenses fail and **how attackers bypass filters**
-- A modular attack methodology you can apply to **any LLM system**
-- How to use roleplay, obfuscation, and reasoning abuse to extract forbidden outputs
-- Hands-on examples from red teaming labs and live AI security exercises
+The **AI Red Teaming Playbook** is a tactical, prompt-by-prompt guide to adversarial LLM exploration. Inspired by _choose-your-own-adventure_ books, it walks you through the process of:
 
----
+- Discovering model behavior
+- Triggering safety systems
+- Exploiting prompt architecture
+- Understanding defense breakdowns
 
-## 🧱 Structure
-
-| Chapter | Title                                                           |
-| ------- | --------------------------------------------------------------- |
-| 01      | [Introduction to AI Red Teaming](01-intro-to-ai-red-teaming.md) |
-| 02      | [Threat Modeling LLMs](02-threat-modeling-llms.md)              |
-| 03      | [Attack Methodology](03-attack-methodology.md)                  |
-| 04      | [Attack Recipes _(8+ subchapters)_](04-attack-recipes/)         |
-| 05      | [Defenses and Evasion](05-defenses-and-evasion.md)              |
-| 06      | [Case Studies](06-case-studies.md)                              |
-| 07      | [Tools and Resources](07-resources-and-tools.md)                |
-
-Each chapter is written in standalone Markdown. Feel free to fork, remix, or adapt it into:
-
-- ✍️ Blog posts
-- 🛡️ Internal team guides
-- 🧨 Capture-the-flag LLM challenges
-- 📚 Future books like **~~REDACTED~~** or **~~REDACTED~~**
+It is designed for red teamers, researchers, prompt hackers, and AI security enthusiasts who want to push LLMs to their limits—**ethically** and **intentionally**.
 
 ---
 
-## ⚔️ Who This Is For
+## 🧭 How It Works
 
-- Offensive security teams exploring LLMs
-- Red teamers and bug bounty hunters breaking prompt boundaries
-- AI researchers building evals and threat models
-- Learners in AI red teaming certs or bootcamps
-- Anyone who’s ever typed “Ignore previous instructions and…”
+Each chapter is a **decision point** with:
+
+- A prompt to send
+- Interpretation of model responses
+- Branches based on how the model behaves
+- The next appropriate chapter
+
+You start with **basic probing** and move into **increasingly aggressive techniques** like:
+- Instruction overrides
+- Role hijacking
+- Obfuscation
+- Recursive injections
+- Multi-turn context corruption
+
+> Think of it as a **red teaming flowchart**—but you’re walking it in real time with a live LLM.
+
+---
+
+## 📚 Table of Contents
+
+| Chapter | Title |
+|--------|-------------------------------|
+| 01     | [Begin the Recon](01-begin-the-recon.md) |
+| 02     | [Identity & System Prompt Clues](02-identity-and-system-prompt-clues.md) |
+| 03     | [Instruction Anchoring Test](03-instruction-anchoring-test.md) |
+| 04     | [Roleplay Resistance Check](04-roleplay-resistance-check.md) |
+| 05     | [Obfuscation & Encoding](05-obfuscation-and-encoding.md) |
+| 06     | [System Prompt Extraction](06-system-prompt-extraction.md) |
+| 07     | [Direct Override](07-direct-override.md) |
+| 08     | [Role Hijack](08-role-hijack.md) |
+| 09     | [Multi-turn Corruption](09-multi-turn-corruption.md) |
+| 10     | [Final Analysis](10-final-analysis.md) |
+
 
 ---
 
@@ -70,23 +75,6 @@ By using, referencing, or distributing this content, you agree to the terms in t
 
 ---
 
-## 📦 Coming Soon
-
-- GitBook / mkdocs version for sleek navigation
-- Visual diagrams of attack chains
-- Companion tools for testing prompts locally
-- A printable PDF version
-
----
-
-## 🧭 Navigation
-
-Start here: 👉 [01-intro-to-ai-red-teaming.md](01-intro-to-ai-red-teaming.md)
-
-Or jump into the [attack recipes](04-attack-recipes/) directly.
-
----
-
 ### 📄 License
 
 This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -99,7 +87,6 @@ You’re free to share and remix the content with attribution, but **no commerci
 
 ## 🧠 Maintained by
 
-Randall — AI red teamer, prompt hacker, and offensive LLM researcher  
-Powered by prompt abuse, recursive logic, and relentless curiosity.
+Randall — Offensive AI researcher & red teamer 
 
-_PRs, forks, and collaborators welcome._
+> Contributions, forks, and PRs welcome.  
